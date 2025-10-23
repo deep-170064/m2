@@ -1,0 +1,58 @@
+.employees-page {
+  animation: fadeIn 0.3s;
+}
+
+.employees-table-container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+}
+
+.employees-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.employees-table thead {
+  background-color: #f8f9fa;
+}
+
+.employees-table th {
+  padding: 15px;
+  text-align: left;
+  font-weight: 600;
+  color: #2c3e50;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.employees-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.employees-table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.role-badge {
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.role-badge.admin {
+  background-color: #e3f2fd;
+  color: #1976d2;
+}
+
+.role-badge.manager {
+  background-color: #fff3e0;
+  color: #f57c00;
+}
+
+.role-badge.cashier {
+  background-color: #e8f5e9;
+  color: #388e3c;
+}
